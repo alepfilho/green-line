@@ -1,0 +1,56 @@
+@import 'variaveis';
+
+h1, h2, h3, h4, h5, h6, p, a, span {
+  font-family: 'Open Sans';
+}
+
+h1 {
+  color: $corPrimaria;
+  font-size: 2.4rem;
+  font-weight: bold;
+  font-style: italic;
+}
+
+span.sub_titulo {
+  color: $cinza;
+  font-size: 1.5rem;
+  font-weight: bold;  
+  font-style: italic;
+}
+
+p{
+    color: #000;
+}
+
+h2{
+    font-size: 2rem;
+    font-weight: bold;
+    font-style: italic;
+    color: $corPrimaria;
+}
+
+h3{
+    font-size: 1.7rem;
+    font-weight: bold;
+    font-style: italic;
+    color: $cinza;
+}
+h4{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+span.livre-spam{
+    font-size: 12px;
+    margin: 20px 0 10px;
+    display: block;
+}
+.black-theme{
+
+    h2{
+        color: #fff;
+    }
+    span.sub_titulo{
+        color:#cfcfcf;
+    }
+}

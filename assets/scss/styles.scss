@@ -1,0 +1,97 @@
+@import 'variaveis';
+.btn{
+    padding: 10px 25px
+}
+
+.btn-primary{
+    background-color: $corSecundaria;
+    color: #000;
+    border-color: transparent;
+}
+.btn-success{
+    background-color: $verde;
+    color: #fff;
+    border-color: transparent;
+    font-weight: bold;
+}
+.btn-link{
+    text-decoration: underline;
+}
+
+.btn-rounded{
+    border-radius: 100px;
+}
+
+.bg-primary{
+    background-color: $corPrimaria !important;
+}
+.bg-cinza{
+    background-color: $cinza;
+}
+#logo{
+    width: 150px;
+}
+section{
+    padding: 50px 0;
+}
+#banner{
+    background-image: url('bg-banner.jpg');
+    background-position: top center;
+    background-repeat: repeat-x;
+}
+
+#formulario{
+    padding: 20px 30px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+
+    li{
+        margin: 5px 0;
+        color:#fff;
+        i{
+            color:$verde;
+            margin-right: 5px;
+        }
+    }
+}
+
+[id*=cta_]{
+    padding: 20px 0;
+
+    .btn-primary{
+        padding: 10px 45px;
+        font-size: 1rem;
+    }
+}
+
+.item-vantagem{
+transition: .7s;
+    &:hover{
+        transform: translateY(-10px);
+        box-shadow:0 .6rem 1rem rgba(0,0,0,0.30) !important;
+    }
+}
+
+footer{
+    background-color: $cinza;
+
+    .box-dark{
+        padding: 20px;
+        background-color: #2d2d2d;
+        height: 100%;
+
+        img{
+            max-width: 200px;
+        }
+    }
+}
+@media (max-width: 450px){
+    #logo{
+        width: 200px;
+    }
+}

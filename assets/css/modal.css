@@ -1,0 +1,25 @@
+.modal-backdrop.fade.show {
+    background-color: #4fa846;
+    opacity: .95;
+}
+.modal-content {
+    background-color: transparent;
+    border: none;
+}
+.modal-content {
+    background-color: transparent;
+    border: none;
+    color: #fff !important;
+}
+.modal-content h3,.modal-content p{
+    color:#fff !important;
+}
+a.close {
+    color: #fff !important;
+    opacity: 1;
+    font-size: 2.4rem;
+    position: absolute;
+    right: 0;
+    top: -30px;
+    cursor: pointer;
+}
